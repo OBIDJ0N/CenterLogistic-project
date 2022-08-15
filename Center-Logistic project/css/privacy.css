@@ -1,0 +1,154 @@
+header{
+    background-image: url("../img/privacy-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.header___top {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .container {
+    max-width: 1230px;
+    padding: 0 15px;  
+    margin: 0 auto;
+  }
+  .header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+  }
+  .main__logo {
+    display: flex;
+    align-items: center;
+  }
+  .main__logo-img {
+    margin-right: 15px;
+  }
+  .main__logo-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+  
+  .nav__menu-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__menu-item {
+    display: flex;
+  }
+  .menu__item-link {
+    padding: 34px 15px 33px 15px;  
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in;
+  }
+  
+  .menu__item-link:hover{
+    background-color: #004AF2;
+  }
+  
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 5px 0;
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .bar1{
+    width: 20px;
+    position: relative;
+    left: 10px;
+  }
+
+  .news {
+    padding: 60px 0 120px;
+    position: relative;
+  }
+  
+ 
+  .news__main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .news__inner {
+     display: block;
+     width: 50%;
+    }
+
+
+    .privacy {
+        padding: 60px 0 120px;
+    }
+    .privacy__inner {
+        display: flex;
+        flex-direction: column;
+        max-width: 890px;
+    }
+    .privacy__item +   .privacy__item{
+        margin-top: 35px;
+    }
+    .privacy__item-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #585858;
+    }
+   
+    .sub-title {
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        color: #2C2C2C;
+    }
+    .privacy__item-bottom-text{
+        margin-top: 40px;
+    }
+    .privacy__item-bottom-text + .privacy__item-bottom-text{
+        margin-top: 15px;
+    }
+    
+
+
+    .div{
+        margin-top: 61px;
+    }
+  
+
+    @media(max-width: 440px){
+      
+        .sub-title{
+            font-size: 20px;
+        }
+
+        .privacy__item-text{
+            font-size: 16px;
+        }
+    }
+  
